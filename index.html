@@ -2,18 +2,22 @@
 <html>
 <head>
   <title>Weather Application | OpenWeatherMap API</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js'></script>
+  <script src="main.js" type="module" charset="utf-8" async defer></script>
 </head>
 <body>
 
   <form>
-  	<input type="text" name="city" value="" placeholder="city" id="city">
+  	<input type="text" name="city" value="" placeholder="city or zipcode" id="city">
   	<input type="submit" value="Get Weather" id="getTemp">
   </form>
 
-  <!-- Add your code in here -->
+  <div id="weatherDetails">
+    
+  </div>
 
-  <script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+  
 
 </body>
 </html>

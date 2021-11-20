@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+    height: 100vh;
+  }
+  body{
+  background: #4e6766;
+  margin: 0;
+  height: 100vh;
+  }
+  
+  h1 {
+    background: #f7dd72;
+    color: #a5c882;
+    margin: 0 auto; 
+  }
