@@ -13,3 +13,7 @@ html {
     color: #a5c882;
     margin: 0 auto; 
   }
+
+  li{
+      list-style-type: none;
+  }
